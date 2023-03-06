@@ -1,0 +1,140 @@
+.flexcontainer{
+    background-color: rgba(0, 0, 0, 0.664);
+    color: brown;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+img{
+    width: 95px;
+    height: 17vh;
+    margin-left: 29px;
+}
+.navs1{
+    margin-left: 750px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    /*margin-right: 200px;*/
+    margin-right: 60px;
+    
+}
+nav ul li{
+    display: inline-block;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 15px;
+    margin: 20px;
+    color: antiquewhite;
+}
+body{
+    /*background-color: rgba(0, 0, 0, 0.336);*/
+    color: white;
+    background-image: url(https://th.bing.com/th/id/R.a346a72ab122bff48644816b0993febc?rik=Hr1EhGsZDxsdOw&pid=ImgRaw&r=0);
+}
+
+li:hover{
+    color: maroon;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.img2{
+    width: 100%;
+    height: 40vh;
+}
+.container{
+    display: flex;
+}
+.pic10{
+    margin-left: 260px;
+    padding-top: 20px;
+
+}
+.w1{
+    padding-left: 80px;
+    padding-top: 60px;
+    font-size: larger;
+}
+.hire{
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 40%;
+    height: 7vh;
+    color: white;
+
+}
+.flex-container{
+    display: flex;
+    box-shadow: -5px -5px 1px rgba(0, 0, 0, 0.247);
+}
+.w3{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.w4{
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.p1{
+    color: rgba(0, 0, 0, 0.925);
+    font-size: x-large;
+    text-decoration: underline;
+    /*text-shadow: 2px 2px 1px black;*/
+}
+.p2{
+    color: rgba(0, 0, 0, 0.932);
+    font-size: x-large;
+    text-decoration: underline;
+    /*text-shadow: 2px 2px 1px black;*/
+}
+.w3:hover{
+    background-color: rgba(0, 0, 0, 0.37);
+
+}
+.w4:hover{
+    background-color: rgba(0, 0, 0, 0.336);
+
+}
+.hire:hover{
+    transition: 1.5s;
+    border-radius: 45%;
+    background-color: rgba(222, 184, 135, 0.568);
+    cursor: grabbing;
+    color: black;
+
+}
+
+.container3{
+    display:  flex;
+    /*justify-content: space-between;*/
+    margin-top: 40px;
+    box-shadow: -5px -5px 1px rgba(0, 0, 0, 0.253);
+}
+
+h2{
+    background: linear-gradient(black burlywood);
+    color: black;
+    text-decoration: solid;
+}
+.skill1{ margin-top: 40px;}
+.skill2{ margin-top: 40px;}
+.skill3{ margin-top: 40px;}
+
+.h11{
+    margin-left: 500px;
+    padding-top: 20px;
+
+  }
+ 
+  footer{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.719);
+    height: 100px;
+  }
+  .cap1{
+    color: rgba(0, 0, 0, 0.842);
+    text-decoration: underline;
+  }
+  b{
+    margin-top: 30px;
+  }
